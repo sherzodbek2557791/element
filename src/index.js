@@ -82,6 +82,7 @@ import PageHeader from '../packages/page-header/index.js';
 import CascaderPanel from '../packages/cascader-panel/index.js';
 import Avatar from '../packages/avatar/index.js';
 import Drawer from '../packages/drawer/index.js';
+import Popconfirm from '../packages/popconfirm/index.js';
 import locale from 'element-ui/src/locale';
 import CollapseTransition from 'element-ui/src/transitions/collapse-transition';
 
@@ -163,6 +164,7 @@ const components = [
   CascaderPanel,
   Avatar,
   Drawer,
+  Popconfirm,
   CollapseTransition
 ];
 
@@ -200,7 +202,7 @@ if (typeof window !== 'undefined' && window.Vue) {
 }
 
 export default {
-  version: '2.12.0',
+  version: '2.13.0',
   locale: locale.use,
   i18n: locale.i18n,
   install,
@@ -286,5 +288,6 @@ export default {
   PageHeader,
   CascaderPanel,
   Avatar,
-  Drawer
+  Drawer,
+  Popconfirm
 };
